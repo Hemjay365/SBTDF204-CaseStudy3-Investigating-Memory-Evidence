@@ -7,7 +7,7 @@
 
 | Path | What it is |
 |---|---|
-| `SBTDF204_CaseStudy3_2025-FWSD-11468.pdf` / `.docx` | The full report (case reference, conclusion and confidence, acquisition, method and profile, findings for Questions 1-8, UTC timeline, attribution and limitations, appendices) |
+| `SBTDF204_CaseStudy3_2025-FWSD-11468.pdf` | The full report (case reference, conclusion and confidence, acquisition, method and profile, findings for Questions 1-8, UTC timeline, attribution and limitations, appendices) |
 | `screenshots/` | The 27 labelled figures used in the report, cropped to the terminal window (`Figure_NN_name.png`, numbered as in the report) |
 | `evidence_records/` | Every saved output, one file per plugin and profile, as real text (and one HTML) files, plus `evidence_manifest_sha256.txt` |
 
@@ -27,12 +27,6 @@ Selected profile `Win7SP1x86_23418` (Windows 7 SP1, 32-bit PAE; the scenario tex
 
 E01 acquisition | E02 imageinfo | E03 kdbgscan | E04 pslist | E05 psscan | E06 netscan | E07 cmdline | E08 cmdscan | E09 consoles | E10 hivelist | E11 getsids | E12 MountedDevices | E13 MountPoints2 | E14 USBSTOR | E15 DeviceClasses | E16 Select | E17 shellbags | E18 filescan | E19 strings (supplementary) | E20 hash manifest. The full log is Appendix D of the report.
 
-## Verify the records
-
-```
-cd evidence_records
-sha256sum -c evidence_manifest_sha256.txt
-```
 
 ## Safety statement
 
