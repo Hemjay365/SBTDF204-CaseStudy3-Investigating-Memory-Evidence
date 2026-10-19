@@ -1,0 +1,1 @@
+-r-xr-xr-x 1 kali kali 1073676288 Oct 18 13:27 original/memdumpWin7.mem

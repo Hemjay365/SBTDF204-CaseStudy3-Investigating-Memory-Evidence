@@ -1,0 +1,8 @@
+  File: original/memdumpWin7.mem
+  Size: 1073676288	Blocks: 2097032    IO Block: 4096   regular file
+Device: 8,1	Inode: 791235      Links: 1
+Access: (0555/-r-xr-xr-x)  Uid: ( 1000/    kali)   Gid: ( 1000/    kali)
+Access: 2026-10-18 13:37:16.700486114 -0400
+Modify: 2026-10-18 13:27:01.000000000 -0400
+Change: 2026-10-18 13:37:16.692433412 -0400
+ Birth: 2026-10-18 13:36:42.090495330 -0400

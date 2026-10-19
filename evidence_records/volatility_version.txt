@@ -1,0 +1,3 @@
+Volatility Foundation Volatility Framework 2.6.1
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
